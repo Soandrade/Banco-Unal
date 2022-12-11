@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class UIMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int option;
 
+        int option;
         do {
             System.out.println(
                     """
                     Welcome to Banco Unal
                     What operation would you like to perform?
-                    1. Tranfer money
-                    2. Withdraw money
-                    3. Pay bills
-                    4. Reloads
+                    1. Ask for a loan
+                    2. Make payments
+                    3. Savings
+                    4. Show movements
                     5. Exit
                     """);
             option = sc.nextInt();
